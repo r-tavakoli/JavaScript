@@ -1,4 +1,26 @@
-button {
+.container {
     margin-top: 50vh;
+}
+
+.btn{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    text-align: center;
+    font-family: cursive;
+    /* -webkit-tap-highlight-color: transparent; remove tap highlight */
+    border-color: black;
+}
+
+.btn:hover{
+    font-weight: bolder;
+    color: brown !important;
+    border-width: 2px;
+}
+
+.btn:focus {
+    /* outline: none; remove outline */
+    box-shadow: none; /* remove box shadow */
+    border-width: 3px;
 }
 
