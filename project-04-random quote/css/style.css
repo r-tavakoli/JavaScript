@@ -1,0 +1,31 @@
+.max-height {
+    min-height: 50vh;
+  }
+  body {
+    background: #b09e99;
+  }
+  .quote-container {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  #generate-btn {
+    color: white !important;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    font-family: cursive;
+    border-radius: 20px;
+    -webkit-tap-highlight-color: transparent; 
+  }
+  #generate-btn:hover {
+    background: #b09e99 !important;
+    color: brown !important;
+    font-size: 21px;   
+  }
+  .author {
+    color: #64b6ac;
+  }
+  
+  #generate-btn:focus {
+    outline: none!important;
+    box-shadow: none!important; /* remove box shadow */
+}
